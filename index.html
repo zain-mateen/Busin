@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busin - HomePage</title>
+    <link rel="shortcut icon" href="assets/img/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/libs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/libs/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/libs/remixicon/fonts/remixicon.css">
+    <link rel="stylesheet" href="assets/css/util.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
+</head>
+<body>
+    
+    <!-- ==========================================
+            Overlay section Starts here
+    =========================================== -->
+    
+    <section class="overlay">
+        <div class="container-fluid">
+            <div class="logo-main">
+                <a href="index.html" class="logo-otr">
+                    <img class="logo" src="assets/img/brand-logo.png" alt="Brand LOGO">
+                </a>
+                <i class="icon ri-close-line" id="close-menu"></i>
+            </div>
+            <form class="input-main">
+                <input class="overlay-search-input" type="search" name="q" id="mySearch" placeholder="Search Here">
+                <button class="icon-otr">
+                    <i class="icon ri-search-line"></i>
+                </button>
+            </form>
+            <nav class="nav">
+                <ul class="menu-ul">
+                    <li class="menu-li">
+                        <a href="index.html" class="menu-a heading-s">Home</a>
+                    </li>
+                    <li class="menu-li">
+                        <a href="/pages/portfolio.html" class="menu-a heading-s">Portfolio</a>
+                    </li>
+                    <li class="menu-li" id="res-drop-menu">
+                        <div class="menu-div">
+                            <div class="menu-a heading-s">Pages</div>
+                            <i class="res-drop-icon ri-arrow-down-s-line"></i>
+                        </div>
+                        <div class="res-drop-otr">
+                            <ul class="drop-ul">
+                                <li class="drop-li">
+                                    <a href="./pages/about.html" class="drop-a heading-s">About Us</a>
+                                </li>
+                                <li class="drop-li">
+                                    <a href="./pages/what-we-do.html" class="drop-a heading-s">How it Works</a>
+                                </li>
+                                <li class="drop-li">
+                                    <a href="./pages/technology.html" class="drop-a heading-s">Technologies</a>
+                                </li>
+                                <li class="drop-li">
+                                    <a href="./pages/service.html" class="drop-a heading-s">Services</a>
+                                </li>
+                                <li class="drop-li">
+                                    <a href="./pages/faq.html" class="drop-a heading-s">F.A.Q</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-li">
+                        <a href="./pages/blog.html" class="menu-a heading-s">Blog</a>
+                    </li>
+                    <li class="menu-li">
+                        <a href="./pages/pricing.html" class="menu-a heading-s">Pricing</a>
+                    </li>
+                    <li class="menu-li">
+                        <a href="./pages/cta.html" class="menu-a heading-s">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="action">
+                <a href="./pages/cta.html" class="started-btn primary-btn">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+            Overlay section Ends here
+    =========================================== -->
+    
+    <!-- ==========================================
+            Header section Starts here
+    =========================================== -->
+
+        <header class="header">
+            <div class="container-fluid">
+                <div class="wrapper">
+                    <div class="logo-main">
+                        <a href="index.html" class="logo-otr">
+                            <img class="logo" src="../assets/img/brand-logo.png" alt="Brand LOGO">
+                        </a>
+                        <i class="icon ri-menu-4-line" id="open-menu"></i>
+                    </div>
+                    <div class="menu-action">
+                        <nav class="nav">
+                            <ul class="menu-ul">
+                                <li class="menu-li">
+                                    <a href="index.html" class="menu-a heading-s">Home</a>
+                                </li>
+                                <li class="menu-li">
+                                    <a href="./pages/portfolio.html" class="menu-a heading-s">Portfolio</a>
+                                </li>
+                                <li class="menu-li" id="drop-menu">
+                                    <div class="menu-div">
+                                        <div class="menu-a heading-s">Pages</div>
+                                        <i class="drop-icon ri-arrow-down-s-line"></i>
+                                    </div>
+                                    <div class="drop-otr">
+                                        <ul class="drop-ul">
+                                            <li class="drop-li">
+                                                <a href="./pages/about.html" class="drop-a heading-s">About Us</a>
+                                            </li>
+                                            <li class="drop-li">
+                                                <a href="./pages/what-we-do.html" class="drop-a heading-s">How it Works</a>
+                                            </li>
+                                            <li class="drop-li">
+                                                <a href="./pages/technology.html" class="drop-a heading-s">Technologies</a>
+                                            </li>
+                                            <li class="drop-li">
+                                                <a href="./pages/service.html" class="drop-a heading-s">Services</a>
+                                            </li>
+                                            <li class="drop-li">
+                                                <a href="./pages/faq.html" class="drop-a heading-s">F.A.Q</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-li">
+                                    <a href="./pages/blog.html" class="menu-a heading-s">Blog</a>
+                                </li>
+                                <li class="menu-li">
+                                    <a href="./pages/pricing.html" class="menu-a heading-s">Pricing</a>
+                                </li>
+                                <li class="menu-li">
+                                    <a href="./pages/cta.html" class="menu-a heading-s">Contact Us</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="action-otr">
+                            <div class="search-main" id="open-search-modal">
+                                <i class="icon ri-search-line"></i>
+                            </div>
+                            <div class="action">
+                                <a href="./pages/cta.html" class="started-btn primary-btn">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+    <!-- ==========================================
+            Header section Ends here
+    =========================================== -->
+    
+    <!-- ==========================================
+            Search Modal Starts here
+    =========================================== -->
+
+        <section class="search-modal">
+            <div class="container-fluid">
+                <form class="search-input">
+                    <div class="search-otr">
+                        <input class="overlay-search-input" type="search" name="q" id="mySearch" placeholder="Search...">
+                        <button type="submit" class="search-btn primary-btn">Search</button>
+                    </div>
+                    <i class="icon ri-close-line" id="close-modal"></i>
+                </form>
+            </div>
+        </section>
+
+    <!-- ==========================================
+            Search Modal Ends here
+    =========================================== -->
+
+    <!-- ==========================================
+            Hero section Starts here
+    =========================================== -->
+
+        <main class="hero">
+            <div class="container-fluid">
+                <div class="row row-custom">
+                    <div class="col-lg-6 col-content-otr">
+                        <div class="col-content-inr">
+                            <h1 class="heading heading-h1">We provide the solutions <br>to grow your business</h1>
+                            <p class="desc heading-m">
+                                We help startups and digital agencies launch projects on time, with no pain.
+                            </p>
+                            <div class="action">
+                                <a href="#" class="read-btn primary-btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-img-otr">
+                        <div class="col-img-inr">
+                            <img class="img" src="assets/img/hero-img.png" alt="hero Section Images">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    <!-- ==========================================
+            Hero section Ends here
+    =========================================== -->
+    
+    <!-- ==========================================
+            Services section Starts here
+    =========================================== -->
+
+        <section class="service">
+            <div class="container-fluid">
+                <div class="wrapper">
+                    <p class="title heading-sb">Amazing Services</p>
+                    <h2 class="heading heading-h2">We're a creative agency ask as about<br> distinctive branding</h2>
+                </div>
+                <div class="row row-custom">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-box-otr">
+                        <div class="col-box-inr box-1">
+                            <div class="icon-main">
+                                <div class="icon-otr">
+                                    <i class="icon ri-settings-3-line"></i>
+                                </div>
+                                <a href="#" class="heading heading-lb">Workflow automation</a>
+                            </div>
+                            <p class="desc heading-s">
+                                Bring to the table win-win servival strategies to ensure proactive domation. At the end of the day, going forward
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-box-otr">
+                        <div class="col-box-inr box-2">
+                            <div class="icon-main">
+                                <div class="icon-otr">
+                                    <i class="icon ri-time-line"></i>
+                                </div>
+                                <a href="#" class="heading heading-lb">Market forecast</a>
+                            </div>
+                            <p class="desc heading-s">
+                                Bring to the table win-win servival strategies to ensure proactive domation. At the end of the day, going forward
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-box-otr">
+                        <div class="col-box-inr box-3">
+                            <div class="icon-main">
+                                <div class="icon-otr">
+                                    <i class="icon ri-calendar-line"></i>
+                                </div>
+                                <a href="#" class="heading heading-lb">Solution defining</a>
+                            </div>
+                            <p class="desc heading-s">
+                                Bring to the table win-win servival strategies to ensure proactive domation. At the end of the day, going forward
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- ==========================================
+            Services section Ends here
+    =========================================== -->
+    
+    <!-- ==========================================
+            Company section Starts here
+    =========================================== -->
+
+        <section class="company">
+            <div class="container-fluid">
+                <div class="row row-custom">
+                    <div class="col-lg-6 col-content-otr">
+                        <div class="col-content-inr">
+                            <p class="title heading-sb">Our Company</p>
+                            <h2 class="heading heading-h2">Creator of quality design and <br>thinker of fresh ideas</h2>
+                            <p class="desc heading-m">
+                                far far away, behind the word mountains, far from the countries Vokalia and Consonantio, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. far far away, behind the word mountains, far from the countries Vokalia and Consonantio, there live the blind texts.
+                            </p>
+                            <div class="action">
+                                <a href="#" class="read-btn primary-btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-img-otr">
+                        <div class="col-img-inr">
+                            <img class="img" src="assets/img/company-img.png" alt="Company section Images">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- ==========================================
+            Company section Ends here
+    =========================================== -->
+    
+    <!-- ==========================================
+            Difference section Starts here
+    =========================================== -->
+
+        <section class="difference">
+            <div class="container-fluid">
+                <div class="row row-custom">
+                    <div class="col-lg-6 col-img-otr">
+                        <div class="col-img-inr">
+                            <img class="img" src="assets/img/diff-img.jpg" alt="Difference section Image">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-content-otr">
+                        <div class="col-content-inr">
+                            <p class="title heading-s">The Difference</p>
+                            <h2 class="heading heading-h2">Experience true business <br>performance increases</h2>
+                            <p class="desc heading-m">
+                                far far away, behind the word mountains, far from the countries Vokalia and Consonantio, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. far far away, behind the word mountains, far from the countries Vokalia and Consonantio, there live the blind texts.
+                            </p>
+                            <div class="action">
+                                <a href="#" class="read-btn primary-btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- ==========================================
+            Difference section Ends here
+    =========================================== -->
+    
+    <!-- ==========================================
+            Pricing-Plan section Starts here
+    =========================================== -->
+
+        <section class="plan">
+            <div class="container-fluid">
+                <div class="wrapper">
+                    <p class="title heading-sb">Pricing Plan</p>
+                    <h2 class="heading heading-h2">Let's find the perfect plan</h2>
+                </div>
+                <div class="row row-custom">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-box-otr">
+                        <div class="col-box-inr box-1">
+                            <div class="price-main">
+                                <div class="content">
+                                    <p class="heading heading-lb">Basic</p>
+                                    <p class="text heading-sb">Most Popular</p>
+                                </div>
+                                <h1 class="price heading-h1-2">$50</h1>
+                            </div>
+                            <div class="content-otr">
+                                <ul class="list-ul">
+                                    <li class="list-li">
+                                        <div class="list-div">
+                                            <i class="icon ri-check-line"></i>
+                                            <p class="text heading-mb">Branding strategy & identity</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-li">
+                                        <div class="list-div">
+                                            <i class="icon ri-check-line"></i>
+                                            <p class="text heading-mb">Market compaign & PR</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-li">
+                                        <div class="list-div">
+                                            <i class="icon ri-close-line"></i>
+                                            <p class="text heading-mb">Website and app designing</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-li">
+                                        <div class="list-div">
+                                            <i class="icon ri-close-line"></i>
+                                            <p class="text heading-mb">Video production and editing</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="action">
+                                    <a href="3" class="signup-btn primary-btn">Sign Up</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-box-otr">
+                        <div class="col-box-inr box-2">
+                            <div class="price-main">
+                                <div class="content">
+                                    <p class="heading heading-lb">Standard</p>
+                                    <p class="text heading-sb">Recommended</p>
+                                </div>
+                                <h1 class="price heading-h1-2">$100</h1>
+                            </div>
+                            <div class="content-otr">
+                                <ul class="list-ul">
+                                    <li class="list-li">
+                                        <div class="list-div">
+                                            <i class="icon ri-check-line"></i>
+                                            <p class="text heading-mb">Branding strategy & identity</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-li">
+                                        <div class="list-div">
+                                            <i class="icon ri-check-line"></i>
+                                            <p class="text heading-mb">Market compaign & PR</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-li">
+                                        <div class="list-div">
+                                            <i class="icon ri-check-line"></i>
+                                            <p class="text heading-mb">Website and app designing</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-li">
+                                        <div class="list-div">
+                                            <i class="icon ri-close-line"></i>
+                                            <p class="text heading-mb">Video production and editing</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="action">
+                                    <a href="3" class="signup-btn primary-btn">Sign Up</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-box-otr">
+                        <div class="col-box-inr box-3">
+                            <div class="price-main">
+                                <div class="content">
+                                    <p class="heading heading-lb">Premium</p>
+                                    <p class="text heading-sb">Best Value</p>
+                                </div>
+                                <h1 class="price heading-h1-2">$160</h1>
+                            </div>
+                            <div class="content-otr">
+                                <ul class="list-ul">
+                                    <li class="list-li">
+                                        <div class="list-div">
+                                            <i class="icon ri-check-line"></i>
+                                            <p class="text heading-mb">Branding strategy & identity</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-li">
+                                        <div class="list-div">
+                                            <i class="icon ri-check-line"></i>
+                                            <p class="text heading-mb">Market compaign & PR</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-li">
+                                        <div class="list-div">
+                                            <i class="icon ri-check-line"></i>
+                                            <p class="text heading-mb">Website and app designing</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-li">
+                                        <div class="list-div">
+                                            <i class="icon ri-check-line"></i>
+                                            <p class="text heading-mb">Video production and editing</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="action">
+                                    <a href="3" class="signup-btn primary-btn">Sign Up</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- ==========================================
+            Pricing-Plan section Ends here
+    =========================================== -->
+    
+    <!-- ==========================================
+            Testimonials section Starts here
+    =========================================== -->
+
+        <section class="testimonials">
+            <div class="container-fluid">
+                <div class="wrapper">
+                    <p class="title heading-sb">Testimonials</p>
+                    <h2 class="heading heading-h2">Awesome clients we've worked with</h2>
+                </div>
+                <div class="swiper swiper-1" id="swiper-1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="box-inr box-1">
+                                <div class="creator-otr">
+                                    <a href="#" class="creator-inr">
+                                        <img class="creator" src="assets/img/creator-1.png" alt="Creator">
+                                    </a>
+                                </div>
+                                <p class="desc heading-s">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt dignissimos quam ex quis voluptate? Ut itaque dolorum optio alias dolore, eos ullam officiis facilis nihil voluptatum quam qui deleniti? Molestias.
+                                </p>
+                                <div class="profile-otr">
+                                    <a href="#" class="heading heading-lb">Zain Mateen</a>
+                                    <p class="text heading-sb">CEO, Co Founders</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box-inr box-2">
+                                <div class="creator-otr">
+                                    <a href="#" class="creator-inr">
+                                        <img class="creator" src="assets/img/creator-2.png" alt="Creator">
+                                    </a>
+                                </div>
+                                <p class="desc heading-s">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt dignissimos quam ex quis voluptate? Ut itaque dolorum optio alias dolore, eos ullam officiis facilis nihil voluptatum quam qui deleniti? Molestias.
+                                </p>
+                                <div class="profile-otr">
+                                    <a href="#" class="heading heading-lb">Zain Mateen</a>
+                                    <p class="text heading-sb">CEO, Co Founders</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box-inr box-3">
+                                <div class="creator-otr">
+                                    <a href="#" class="creator-inr">
+                                        <img class="creator" src="assets/img/creator-3.png" alt="Creator">
+                                    </a>
+                                </div>
+                                <p class="desc heading-s">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt dignissimos quam ex quis voluptate? Ut itaque dolorum optio alias dolore, eos ullam officiis facilis nihil voluptatum quam qui deleniti? Molestias.
+                                </p>
+                                <div class="profile-otr">
+                                    <a href="#" class="heading heading-lb">Zain Mateen</a>
+                                    <p class="text heading-sb">CEO, Co Founders</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box-inr box-4">
+                                <div class="creator-otr">
+                                    <a href="#" class="creator-inr">
+                                        <img class="creator" src="assets/img/creator-4.png" alt="Creator">
+                                    </a>
+                                </div>
+                                <p class="desc heading-s">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt dignissimos quam ex quis voluptate? Ut itaque dolorum optio alias dolore, eos ullam officiis facilis nihil voluptatum quam qui deleniti? Molestias.
+                                </p>
+                                <div class="profile-otr">
+                                    <a href="#" class="heading heading-lb">Zain Mateen</a>
+                                    <p class="text heading-sb">CEO, Co Founders</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box-inr box-5">
+                                <div class="creator-otr">
+                                    <a href="#" class="creator-inr">
+                                        <img class="creator" src="assets/img/creator-5.png" alt="Creator">
+                                    </a>
+                                </div>
+                                <p class="desc heading-s">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt dignissimos quam ex quis voluptate? Ut itaque dolorum optio alias dolore, eos ullam officiis facilis nihil voluptatum quam qui deleniti? Molestias.
+                                </p>
+                                <div class="profile-otr">
+                                    <a href="#" class="heading heading-lb">Zain Mateen</a>
+                                    <p class="text heading-sb">CEO, Co Founders</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box-inr box-6">
+                                <div class="creator-otr">
+                                    <a href="#" class="creator-inr">
+                                        <img class="creator" src="assets/img/creator-6.png" alt="Creator">
+                                    </a>
+                                </div>
+                                <p class="desc heading-s">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt dignissimos quam ex quis voluptate? Ut itaque dolorum optio alias dolore, eos ullam officiis facilis nihil voluptatum quam qui deleniti? Molestias.
+                                </p>
+                                <div class="profile-otr">
+                                    <a href="#" class="heading heading-lb">Zain Mateen</a>
+                                    <p class="text heading-sb">CEO, Co Founders</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="arrow-otr">
+                        <div class="swiper-button-prev">
+                            <i class="icon ri-arrow-left-line"></i>
+                        </div>
+                        <div class="swiper-button-next">
+                            <i class="icon ri-arrow-right-line"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- ==========================================
+            Testimonials section Ends here
+    =========================================== -->
+    
+    <!-- ==========================================
+            News section Starts here
+    =========================================== -->
+
+        <section class="news">
+            <div class="container-fluid">
+                <div class="wrapper">
+                    <p class="title heading-sb">Latest News</p>
+                    <h2 class="heading heading-h2">Thoughts and experiments</h2>
+                </div>
+                <div class="row row-custom">
+                    <div class="col-lg-6 col-box-otr">
+                        <div class="col-box-inr">
+                            <div class="box-otr">
+                                <div class="box-inr news-box1">
+                                    <p class="heading heading-lb">Peter Funch shares the photo books that inspire his own practice</p>
+                                </div>
+                            </div>
+                            <div class="box-otr">
+                                <div class="box-inr news-box2">
+                                    <p class="heading heading-lb">Apartamento at ten: a decade of celebrating the everuday home</p>
+                                </div>
+                            </div>
+                            <div class="box-otr">
+                                <div class="box-inr news-box3">
+                                    <p class="heading heading-lb">Aron Klein's captivating images of the Bulgarian demon chasers</p>
+                                </div>
+                            </div>
+                            <div class="box-otr">
+                                <div class="box-inr news-box4">
+                                    <p class="heading heading-lb">Kristin Watson shares the photo books that inspire his own practice</p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div> 
+                    <div class="col-lg-6 col-modal-otr">
+                        <div class="col-modal-inr news-modal1">
+                            <a href="#" class="img-otr">
+                                <img class="img" src="assets/img/news-img.jpg" alt="Peter Funch shares the photo books that inspire his own practice">
+                            </a>
+                            <div class="content-otr">
+                                <a href="#" class="heading heading-lb">Peter Funch shares the photo books that inspire his own practice</a>
+                                <p class="desc heading-s">
+                                    New had happen unable uneasy. Drawing can followed improved sociable not. Earnestly so do instantly pretended. See general few civilly amiable pleased account carried. Excellence projecting is devonshire dipatched remarkably on estimating. Side in so life past. Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse. Deal say over you age from. Comparison new ham melancholy son themselves.
+                                </p>
+                                <div class="action">
+                                    <a href="#" class="read-btn primary-btn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-modal-inr news-modal2">
+                            <a href="#" class="img-otr">
+                                <img class="img" src="assets/img/news-img2.jpg" alt="Peter Funch shares the photo books that inspire his own practice">
+                            </a>
+                            <div class="content-otr">
+                                <a href="#" class="heading heading-lb">Apartamento at ten: a decade of celebrating the everuday home</a>
+                                <p class="desc heading-s">
+                                    New had happen unable uneasy. Drawing can followed improved sociable not. Earnestly so do instantly pretended. See general few civilly amiable pleased account carried. Excellence projecting is devonshire dipatched remarkably on estimating. Side in so life past. Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse. Deal say over you age from. Comparison new ham melancholy son themselves.
+                                </p>
+                                <div class="action">
+                                    <a href="#" class="read-btn primary-btn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-modal-inr news-modal3">
+                            <a href="#" class="img-otr">
+                                <img class="img" src="assets/img/news-img3.jpg" alt="Peter Funch shares the photo books that inspire his own practice">
+                            </a>
+                            <div class="content-otr">
+                                <a href="#" class="heading heading-lb">Aron Klein's captivating images of the Bulgarian demon chasers</a>
+                                <p class="desc heading-s">
+                                    New had happen unable uneasy. Drawing can followed improved sociable not. Earnestly so do instantly pretended. See general few civilly amiable pleased account carried. Excellence projecting is devonshire dipatched remarkably on estimating. Side in so life past. Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse. Deal say over you age from. Comparison new ham melancholy son themselves.
+                                </p>
+                                <div class="action">
+                                    <a href="#" class="read-btn primary-btn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-modal-inr news-modal4">
+                            <a href="#" class="img-otr">
+                                <img class="img" src="assets/img/news-img4.jpg" alt="Peter Funch shares the photo books that inspire his own practice">
+                            </a>
+                            <div class="content-otr">
+                                <a href="#" class="heading heading-lb">Kristin Watson shares the photo books that inspire his own practice</a>
+                                <p class="desc heading-s">
+                                    New had happen unable uneasy. Drawing can followed improved sociable not. Earnestly so do instantly pretended. See general few civilly amiable pleased account carried. Excellence projecting is devonshire dipatched remarkably on estimating. Side in so life past. Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse. Deal say over you age from. Comparison new ham melancholy son themselves.
+                                </p>
+                                <div class="action">
+                                    <a href="#" class="read-btn primary-btn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- ==========================================
+            News section Ends here
+    =========================================== -->
+    
+    <!-- ==========================================
+            CTA section Starts here
+    =========================================== -->
+
+        <section class="cta">
+            <div class="container-fluid">
+                <div class="row row-custom">
+                    <div class="col-lg-6 col-content-otr">
+                        <div class="col-content-inr">
+                            <h2 class="heading heading-h2">Ready to Improve Your Experience <br>With Busin Technology?</h2>
+                            <p class="desc heading-m">
+                                far far away, behind the word mountains, far from the countries Vokalia and Consonantio, there live the blind texts.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-form-otr">
+                        <div class="col-form-inr">
+                            <form class="input-main">
+                                <div class="input-otr">
+                                    <input class="input" type="text" name="text" id="text" placeholder="Name" required>
+                                </div>
+                                <div class="input-otr">
+                                    <input class="input" type="email" name="email" id="email" placeholder="Email" required>
+                                </div>
+                                <div class="input-otr">
+                                    <input class="input" type="tel" name="tel" id="tel" placeholder="Phone" required>
+                                </div>
+                                <div class="input-otr">
+                                    <textarea class="textarea" name="message" id="message" placeholder="Message" required></textarea>
+                                </div>
+                                <button class="cta-btn primary-btn" type="submit">Contact Us</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- ==========================================
+            CTA section Ends here
+    =========================================== -->
+    
+    <!-- ==========================================
+            Footer section Starts here
+    =========================================== -->
+
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="row row-custom">
+                    <div class="col-lg-4 col-logo-otr">
+                        <div class="col-logo-inr">
+                            <a href="index.html" class="logo-otr">
+                                <img class="logo" src="assets/img/brand-logo.png" alt="Brand LOGO">
+                            </a>
+                            <p class="desc heading-m">
+                                Created with the collaboration of over 60 of the world's best Nuron Artists.
+                            </p>
+                            <ul class="social-ul">
+                                <li class="social-li">
+                                    <a href="#" class="social-a">
+                                        <i class="icon ri-linkedin-box-fill"></i>
+                                    </a>
+                                </li>
+                                <li class="social-li">
+                                    <a href="#" class="social-a">
+                                        <i class="icon ri-facebook-circle-fill"></i>
+                                    </a>
+                                </li>
+                                <li class="social-li">
+                                    <a href="#" class="social-a">
+                                        <i class="icon ri-instagram-fill"></i>
+                                    </a>
+                                </li>
+                                <li class="social-li">
+                                    <a href="#" class="social-a">
+                                        <i class="icon ri-github-fill"></i>
+                                    </a>
+                                </li>
+                                <li class="social-li">
+                                    <a href="#" class="social-a">
+                                        <i class="icon ri-twitter-fill"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-navigation-otr">
+                        <div class="col-navigation-inr">
+                            <h4 class="heading heading-h4">Company</h4>
+                            <ul class="navigation-ul">
+                                <li class="navigation-li">
+                                    <a href="index.html" class="navigation-a heading-sb">Home</a>
+                                </li>
+                                <li class="navigation-li">
+                                    <a href="./pages/portfolio.html" class="navigation-a heading-sb">Portfolio</a>
+                                </li>
+                                <li class="navigation-li">
+                                    <a href="./pages/blog.html" class="navigation-a heading-sb">Blog</a>
+                                </li>
+                                <li class="navigation-li">
+                                    <a href="./pages/pricing.html" class="navigation-a heading-sb">Pricing</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-navigation-otr">
+                        <div class="col-navigation-inr">
+                            <h4 class="heading heading-h4">Navigation</h4>
+                            <ul class="navigation-ul">
+                                <li class="navigation-li">
+                                    <a href="./pages/what-we-do.html" class="navigation-a heading-sb">How it works</a>
+                                </li>
+                                <li class="navigation-li">
+                                    <a href="./pages/faq.html" class="navigation-a heading-sb">F.A.Q</a>
+                                </li>
+                                <li class="navigation-li">
+                                    <a href="./pages/cta.html" class="navigation-a heading-sb">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-8 col-contact-otr">
+                        <div class="col-contact-inr">
+                            <h4 class="heading heading-h4">Join Our Newsletter</h4>
+                            <form class="input-main">
+                                <input class="contact-input" type="email" name=""email id="email" placeholder="Your e-mail" required>
+                                <button class="icon-otr">
+                                    <i class="icon ri-arrow-right-line"></i>
+                                </button>
+                            </form>
+                            <p class="desc heading-m">
+                                * Will send you weekly updates for your better finance management.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <!-- ==========================================
+            Footer section Ends here
+    =========================================== -->
+
+
+
+
+    <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
